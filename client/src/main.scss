@@ -1,0 +1,18 @@
+// Import Bootstrap functions & variables
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+// Override Bootstrap theme colors
+$theme-colors: (
+  "primary": #F4E1D2,  // Custom Primar
+  "secondary": #6E493A,  // Custom Secondary
+  "dark": #2B1C10,// New Custom Color
+  "info" : #A67C6B,  // Muted Brown
+  "success": #8F5E40,  // Warm Earthy Tone
+  "warning": #D9A673,  // Soft Tan
+  "danger": #B24020,  // Deep Red-Orange
+  "light": #FAF3EE,  // Off-White
+);
+
+// Import the rest of Bootstrap
+@import "bootstrap/scss/bootstrap";
